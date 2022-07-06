@@ -22,6 +22,6 @@ const itemEl = images
   )
   .join("");
 
-console.log(itemEl);
+// console.log(itemEl);
 const listEl = document.querySelector(".gallery");
 listEl.insertAdjacentHTML("beforeend", itemEl);

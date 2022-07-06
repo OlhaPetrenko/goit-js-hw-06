@@ -13,8 +13,8 @@ const itemEl = ingredients.map((el) => {
   ingredientItem.classList.add("item");
   return ingredientItem;
 });
-console.log(itemEl);
+// console.log(itemEl);
 const listEl = document.querySelector("#ingredients");
 
 listEl.append(...itemEl);
-console.log(listEl);
+// console.log(listEl);
